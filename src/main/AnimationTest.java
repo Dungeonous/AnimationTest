@@ -9,5 +9,6 @@ public class AnimationTest {
 		AnimationController animationController = new AnimationController(animationSpeed, animationLength);
 		
 		animationController.animateGuy();
+		
 	}
 }

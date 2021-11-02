@@ -33,6 +33,8 @@ public class AnimationController {
 		System.out.println("              |             ");
 		System.out.println("             / \\            ");
 		System.out.println("            /   \\           ");
+		System.out.print("hello ");
+		System.out.print("world");
 	}
 	
 	public void printGuyTwo() throws InterruptedException {
