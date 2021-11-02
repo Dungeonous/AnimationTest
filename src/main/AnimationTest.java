@@ -4,12 +4,10 @@ public class AnimationTest {
 	public static void main(String[] args) throws InterruptedException {
 		
 		Long animationSpeed = (long) 500;
+		int animationLength = 10;
 		
-		AnimationController animationController = new AnimationController(animationSpeed);
+		AnimationController animationController = new AnimationController(animationSpeed, animationLength);
 		
-		for (int i = 0; i < 100; i++) {
-			animationController.printGuyOne();
-			animationController.printGuyTwo();
-		}
+		animationController.animateGuy();
 	}
 }
