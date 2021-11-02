@@ -1,7 +1,5 @@
 package main;
 
-import main.AnimationController;
-
 public class AnimationTest {
 	public static void main(String[] args) throws InterruptedException {
 		
